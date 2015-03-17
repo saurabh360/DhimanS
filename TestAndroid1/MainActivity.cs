@@ -25,6 +25,7 @@ namespace TestAndroid1
 			// and attach an event to it
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			//Hello
+			//Hello1
 			button.Click += delegate {
 				button.Text = string.Format ("{0} clicks!", count++);
 			};
